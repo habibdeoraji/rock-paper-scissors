@@ -1,0 +1,73 @@
+/* Comparison Card */
+
+.current_game_score_comparison {
+    display: flex;
+    margin: 5px auto;
+    min-width: 250px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.current_game_user_score_card {
+    text-align: center;
+    box-shadow: 0 0 2px 2px lightblue;
+    padding: 5px;
+    border-radius: 3px;
+    min-width: 100px;
+}
+
+.current_game_user_score_card~p {
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+.current_game_user_score_card p:first-child {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Choice Button wrapper */
+
+
+.choice_button_wrapper {
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+
+.choice_button_wrapper button {
+    font-size: 1.1em;
+    width: 120px;
+    padding: 5px;
+    background-color: rgb(1, 119, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 0px 5px
+}
+
+
+/* Current Game Result */
+
+
+.game_card {
+    width: 40%;
+    margin: 30px auto;
+    box-shadow: 0 0 4px 4px rgb(214, 214, 214);
+    text-align: center;
+    border-radius: 10px
+}
+
+.choice_card_wrapper {
+    display: flex;
+    justify-content: space-around;
+}

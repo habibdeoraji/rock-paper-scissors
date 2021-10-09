@@ -1,0 +1,18 @@
+.nav_bar {
+    display: flex;
+    background-color: rgb(11, 78, 90);
+    padding: 15px 20px;
+    justify-content: flex-end;
+}
+
+.nav_item {
+    display: flex;
+    color: white;
+}
+
+.nav_item span {
+    color: white;
+    margin: 0px 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
